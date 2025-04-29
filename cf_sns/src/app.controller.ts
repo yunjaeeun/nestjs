@@ -27,7 +27,7 @@ export class AppController {
 
   @Get()
   getPosts() {
-    return this.appService.getPosts()
+    return this.appService.getPosts;
   }
 
   @Get(':id')
